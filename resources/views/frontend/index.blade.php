@@ -3,32 +3,26 @@
 
 <main class="main">
 
-
     <!-- Hero Section -->
-    <section id="hero" class="hero section">
+    <section id="hero" class="hero section dark-background mt-5">
+
         <div class="hero-background">
-            <video autoplay muted loop playsinline>
-                <source src="assets/img/hero-snack-video.mp4" type="video/mp4">
-                <!-- fallback: image -->
-                <img src="assets/img/bg-bhakarwadi.jpg" alt="Bhakarwadi Snack Background">
-            </video>
-            <div class="overlay"></div>
+
         </div>
 
-        <div class="container hero-content">
-            <div class="row justify-content-center">
-                <div class="col-lg-8 text-center">
+        <div class="container hero-content mt-4">
+            <div class="row">
+                <div class="col-lg-8">
                     <div class="hero-text" data-aos="fade-up" data-aos-delay="100">
-                        <span class="tagline">✨ Ka Packet Khulega ?</span>
+                        <span class="tagline">Welcome to Shriji Brother's</span>
                         <h1 class="hero-title">Crunchy Bhakarwadi, Tasty Moments</h1>
                         <p class="hero-description">Savor the rich taste of Shriji Brothers’ signature bhakarwadi.
                             Freshly made, crispy, and delivered to your doorstep.</p>
 
                         <div class="hero-actions" data-aos="fade-up" data-aos-delay="200">
                             <a href="/order" class="btn btn-primary me-3">Order Now</a>
-                            <a href="/products" class="btn btn-outline-light">Explore Flavors</a>
+                            <a href="/products" class="btn btn-outline">Explore Flavors</a>
                         </div>
-
                         <div class="hero-features d-flex justify-content-center mt-4" data-aos="fade-up"
                             data-aos-delay="300">
                             <div class="feature-item text-center mx-3">
@@ -54,17 +48,27 @@
                             </div>
                         </div>
                     </div>
+
+
+
+                </div>
+                <div class="col-lg-4" data-aos="fade-in" data-aos-delay="400">
+                    <video autoplay loop muted
+                        style=" width: 350px; height: 500px;  border: 5px double #e07844; padding:30px 0px;">
+                        <source src="assets/img/bhakharwadi-vdo.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
                 </div>
             </div>
         </div>
-
-        <div class="scroll-indicator text-center" data-aos="fade-up" data-aos-delay="400">
+        <div class="scroll-indicator" data-aos="fade-up" data-aos-delay="400">
             <div class="scroll-text">Scroll to Explore</div>
             <div class="scroll-arrow">
                 <i class="bi bi-chevron-down"></i>
             </div>
         </div>
-    </section>
+
+    </section><!-- /Hero Section -->
 
     <!-- About Section -->
     <section id="about" class="about section">
@@ -72,8 +76,8 @@
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
             <span class="description-title">&nbsp;About</span>
-            <h2>About</h2>
-            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+            <h2>About Us</h2>
+            <p>Committed to delivering excellence and quality in every project we undertake.</p>
         </div><!-- End Section Title -->
 
         <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -81,33 +85,36 @@
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6" data-aos="fade-up">
                     <div class="about-content">
-                        <h2>Experience Our Unique Approach</h2>
-                        <p class="fst-italic">Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
-                            Vestibulum id ligula porta felis euismod semper.</p>
-                        <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean eu leo quam.
-                            Pellentesque ornare sem lacinia quam venenatis vestibulum. Curabitur blandit tempus
-                            porttitor.</p>
+                        <h2>Building Trust Through Quality & Innovation</h2>
+                        <p class="fst-italic">At Shriji Brothers Pvt. Ltd., we combine expertise, dedication, and
+                            innovative solutions to serve our clients with unmatched professionalism.</p>
+                        <p>With years of experience in [industry – e.g., manufacturing, trading, or construction], we
+                            have earned a reputation for reliability, quality, and customer satisfaction. Our team is
+                            committed to turning ideas into reality while maintaining the highest standards in every
+                            project.</p>
 
                         <div class="row mt-4">
                             <div class="col-md-6">
                                 <div class="feature-item" data-aos="fade-up" data-aos-delay="150">
                                     <i class="bi bi-award"></i>
-                                    <h4>Exceptional Service</h4>
-                                    <p>Donec sed odio dui. Nulla vitae elit libero, a pharetra augue.</p>
+                                    <h4>Trusted Expertise</h4>
+                                    <p>We leverage our experience to provide reliable and efficient solutions for every
+                                        client.</p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="feature-item" data-aos="fade-up" data-aos-delay="200">
                                     <i class="bi bi-trophy"></i>
-                                    <h4>Industry Recognition</h4>
-                                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+                                    <h4>Proven Track Record</h4>
+                                    <p>Our commitment to excellence has earned recognition and loyalty from clients
+                                        nationwide.</p>
                                 </div>
                             </div>
                         </div>
 
                         <div class="signature mt-4" data-aos="fade-up" data-aos-delay="250">
-                            <p class="chef-name">Jane Smith, Head of Operations</p>
-                            <img src="assets/img/misc/signature-1.webp" alt="Chef Signature" class="img-fluid">
+                            <p class="chef-name">Mr. [Founder Name], Founder & Managing Director</p>
+                            <img src="assets/img/misc/signature-1.webp" alt="Founder Signature" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -116,20 +123,20 @@
                     <div class="about-gallery">
                         <div class="row g-3">
                             <div class="col-6">
-                                <img src="assets/img/restaurant/showcase-3.webp" class="img-fluid rounded"
-                                    alt="Restaurant Image">
+                                <img src="assets/img/company/showcase-1.webp" class="img-fluid rounded"
+                                    alt="Company Image">
                             </div>
                             <div class="col-6">
-                                <img src="assets/img/restaurant/showcase-8.webp" class="img-fluid rounded"
-                                    alt="Restaurant Image">
+                                <img src="assets/img/company/showcase-2.webp" class="img-fluid rounded"
+                                    alt="Company Image">
                             </div>
                             <div class="col-12 mt-3">
                                 <div class="years-badge">
-                                    <span class="number">18</span>
-                                    <span class="text">Years of Dedication</span>
+                                    <span class="number">15+</span>
+                                    <span class="text">Years of Excellence</span>
                                 </div>
-                                <img src="assets/img/restaurant/showcase-6.webp" class="img-fluid rounded"
-                                    alt="Restaurant Image">
+                                <img src="assets/img/company/showcase-3.webp" class="img-fluid rounded"
+                                    alt="Company Image">
                             </div>
                         </div>
                     </div>
@@ -140,14 +147,15 @@
 
     </section><!-- /About Section -->
 
-    <!-- Menu Section -->
+
+    <!-- Products Section -->
     <section id="menu" class="menu section">
 
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-            <span class="description-title">Menu</span>
-            <h2>Menu</h2>
-            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+            <span class="description-title">Products</span>
+            <h2>Our Bhakarwadi Range</h2>
+            <p>Delicious, crispy, and spicy Bhakarwadi made with authentic traditional recipes.</p>
         </div><!-- End Section Title -->
 
         <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -156,187 +164,90 @@
 
                 <div class="menu-filters isotope-filters mb-5" data-aos="fade-up" data-aos-delay="200">
                     <ul>
-                        <li data-filter="*" class="filter-active">All Dishes</li>
-                        <li data-filter=".filter-starters">Appetizers</li>
-                        <li data-filter=".filter-main">Entrees</li>
-                        <li data-filter=".filter-dessert">Sweet Treats</li>
-                        <li data-filter=".filter-drinks">Beverages</li>
+                        <li data-filter="*" class="filter-active">All Products</li>
+                        <li data-filter=".filter-classic">Classic Bhakarwadi</li>
+                        <li data-filter=".filter-spicy">Spicy Bhakarwadi</li>
+                        <li data-filter=".filter-mixed">Mixed Snacks</li>
+                        <li data-filter=".filter-giftpacks">Gift Packs</li>
                     </ul>
                 </div>
 
                 <div class="menu-grid isotope-container row gy-5" data-aos="fade-up" data-aos-delay="300">
 
-                    <div class="col-xl-4 col-lg-6 isotope-item filter-starters">
+                    <!-- Classic Bhakarwadi -->
+                    <div class="col-xl-4 col-lg-6 isotope-item filter-classic">
                         <div class="menu-card">
                             <div class="menu-card-image">
-                                <img src="assets/img/restaurant/starter-1.webp" alt="Appetizer" class="img-fluid">
+                                <img src="{{ asset('assets/img/Products/bhakharwadi.jpg') }}" alt="Classic Bhakarwadi"
+                                    class="img-fluid">
                                 <div class="dietary-badges">
-                                    <span class="badge-vegetarian">V</span>
+                                    <span class="badge-classic">Classic</span>
                                 </div>
-                                <div class="price-overlay">$12.50</div>
+                                <div class="price-overlay">$10.00 / 250g</div>
                             </div>
                             <div class="menu-card-content">
-                                <h4>Prosciutto-Wrapped Asparagus</h4>
-                                <p>Vivamus tempor magna et tempus elementum. Sed consequat libero vel mauris cursus.</p>
-                                <div class="spice-level">
-                                    <span class="spice-dot"></span>
-                                    <span class="spice-dot"></span>
-                                    <span class="spice-dot active"></span>
-                                </div>
+                                <h4>Classic Bhakarwadi</h4>
+                                <p>Authentic, sweet and spicy Bhakarwadi made with premium ingredients and traditional
+                                    taste.</p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-xl-4 col-lg-6 isotope-item filter-starters">
+                    <!-- Spicy Bhakarwadi -->
+                    <div class="col-xl-4 col-lg-6 isotope-item filter-spicy">
                         <div class="menu-card">
                             <div class="menu-card-image">
-                                <img src="assets/img/restaurant/starter-3.webp" alt="Appetizer" class="img-fluid">
+                                <img src="{{ asset('assets/img/Products/bhakharwadi.jpg') }}" alt="Spicy Bhakarwadi"
+                                    class="img-fluid">
                                 <div class="dietary-badges">
-                                    <span class="badge-seafood">SF</span>
+                                    <span class="badge-spicy">Hot</span>
                                 </div>
-                                <div class="price-overlay">$14.95</div>
+                                <div class="price-overlay">$12.00 / 250g</div>
                             </div>
                             <div class="menu-card-content">
-                                <h4>Seared Scallops with Cauliflower</h4>
-                                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.</p>
-                                <div class="spice-level">
-                                    <span class="spice-dot active"></span>
-                                    <span class="spice-dot"></span>
-                                    <span class="spice-dot"></span>
-                                </div>
+                                <h4>Spicy Bhakarwadi</h4>
+                                <p>Crispy, tangy and extra spicy Bhakarwadi for snack lovers who like a little heat.</p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-xl-4 col-lg-6 isotope-item filter-main">
+                    <!-- Mixed Snacks -->
+                    <div class="col-xl-4 col-lg-6 isotope-item filter-mixed">
                         <div class="menu-card featured">
                             <div class="menu-card-image">
-                                <img src="assets/img/restaurant/main-2.webp" alt="Main Course" class="img-fluid">
+                                <img src="{{ asset('assets/img/Products/bhakharwadi.jpg') }}" alt="Mixed Snacks" class="img-fluid">
                                 <div class="dietary-badges">
-                                    <span class="badge-chef">Chef's Choice</span>
+                                    <span class="badge-mixed">Popular</span>
                                 </div>
-                                <div class="price-overlay">$28.00</div>
+                                <div class="price-overlay">$15.00 / 300g</div>
                             </div>
                             <div class="menu-card-content">
-                                <h4>Herb-Crusted Rack of Lamb</h4>
-                                <p>Mauris auctor nulla et felis tempor, eu consectetur ante vulputate non.</p>
-                                <div class="spice-level">
-                                    <span class="spice-dot active"></span>
-                                    <span class="spice-dot active"></span>
-                                    <span class="spice-dot"></span>
-                                </div>
+                                <h4>Mixed Bhakarwadi & Namkeen</h4>
+                                <p>A mix of crunchy Bhakarwadi and traditional savory snacks for parties and gifting.
+                                </p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-xl-4 col-lg-6 isotope-item filter-main">
+                    <!-- Gift Packs -->
+                    <div class="col-xl-4 col-lg-6 isotope-item filter-giftpacks">
                         <div class="menu-card">
                             <div class="menu-card-image">
-                                <img src="assets/img/restaurant/main-6.webp" alt="Main Course" class="img-fluid">
+                                <img src="{{ asset('assets/img/Products/bhakharwadi.jpg') }}" alt="Gift Pack" class="img-fluid">
                                 <div class="dietary-badges">
-                                    <span class="badge-vegetarian">V</span>
-                                    <span class="badge-gluten-free">GF</span>
+                                    <span class="badge-gift">Gift</span>
                                 </div>
-                                <div class="price-overlay">$22.75</div>
+                                <div class="price-overlay">$25.00 / Pack</div>
                             </div>
                             <div class="menu-card-content">
-                                <h4>Quinoa Stuffed Bell Peppers</h4>
-                                <p>Donec vel nunc non erat vehicula cursus. Integer pharetra mauris vel lorem.</p>
-                                <div class="spice-level">
-                                    <span class="spice-dot active"></span>
-                                    <span class="spice-dot"></span>
-                                    <span class="spice-dot"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-4 col-lg-6 isotope-item filter-dessert">
-                        <div class="menu-card">
-                            <div class="menu-card-image">
-                                <img src="assets/img/restaurant/dessert-4.webp" alt="Dessert" class="img-fluid">
-                                <div class="dietary-badges">
-                                    <span class="badge-signature">Signature</span>
-                                </div>
-                                <div class="price-overlay">$11.25</div>
-                            </div>
-                            <div class="menu-card-content">
-                                <h4>Salted Caramel Cheesecake</h4>
-                                <p>Cras fermentum odio eu feugiat luctus. Aliquam erat volutpat sed bibendum.</p>
-                                <div class="spice-level">
-                                    <span class="spice-dot"></span>
-                                    <span class="spice-dot"></span>
-                                    <span class="spice-dot"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-4 col-lg-6 isotope-item filter-dessert">
-                        <div class="menu-card">
-                            <div class="menu-card-image">
-                                <img src="assets/img/restaurant/dessert-9.webp" alt="Dessert" class="img-fluid">
-                                <div class="dietary-badges">
-                                    <span class="badge-vegan">VG</span>
-                                </div>
-                                <div class="price-overlay">$9.50</div>
-                            </div>
-                            <div class="menu-card-content">
-                                <h4>Dark Chocolate Avocado Mousse</h4>
-                                <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere.</p>
-                                <div class="spice-level">
-                                    <span class="spice-dot"></span>
-                                    <span class="spice-dot"></span>
-                                    <span class="spice-dot"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-4 col-lg-6 isotope-item filter-drinks">
-                        <div class="menu-card">
-                            <div class="menu-card-image">
-                                <img src="assets/img/restaurant/drink-2.webp" alt="Beverage" class="img-fluid">
-                                <div class="dietary-badges">
-                                    <span class="badge-alcoholic">21+</span>
-                                </div>
-                                <div class="price-overlay">$15.00</div>
-                            </div>
-                            <div class="menu-card-content">
-                                <h4>Elderflower Gin Fizz</h4>
-                                <p>Nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet non.</p>
-                                <div class="spice-level">
-                                    <span class="spice-dot"></span>
-                                    <span class="spice-dot"></span>
-                                    <span class="spice-dot"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-4 col-lg-6 isotope-item filter-drinks">
-                        <div class="menu-card">
-                            <div class="menu-card-image">
-                                <img src="assets/img/restaurant/drink-6.webp" alt="Beverage" class="img-fluid">
-                                <div class="dietary-badges">
-                                    <span class="badge-fresh">Fresh</span>
-                                </div>
-                                <div class="price-overlay">$8.75</div>
-                            </div>
-                            <div class="menu-card-content">
-                                <h4>Tropical Green Smoothie</h4>
-                                <p>Ut pharetra sit amet aliquam id diam maecenas ultricies mi eget mauris.</p>
-                                <div class="spice-level">
-                                    <span class="spice-dot"></span>
-                                    <span class="spice-dot"></span>
-                                    <span class="spice-dot"></span>
-                                </div>
+                                <h4>Bhakarwadi Gift Pack</h4>
+                                <p>Beautifully packed Bhakarwadi assortments, perfect for gifting and special occasions.
+                                </p>
                             </div>
                         </div>
                     </div>
 
                 </div>
-
             </div>
 
             <div class="menu-actions" data-aos="fade-up" data-aos-delay="400">
@@ -344,53 +255,36 @@
                     <div class="col-md-8">
                         <div class="seasonal-notice">
                             <i class="bi bi-info-circle"></i>
-                            <span>Our seasonal menu changes quarterly. Some items may vary based on ingredient
-                                availability.</span>
+                            <span>Our Bhakarwadi is freshly made and packaged to preserve taste and crunchiness.</span>
                         </div>
                     </div>
-                    <div class="col-md-4 text-md-end">
-                        <a href="#" class="menu-download-btn">
-                            <i class="bi bi-download"></i>
-                            <span>Full Menu PDF</span>
-                        </a>
-                    </div>
+
                 </div>
             </div>
 
             <div class="chef-recommendations" data-aos="fade-up" data-aos-delay="500">
                 <div class="section-header">
-                    <h3><i class="bi bi-star-fill"></i> Today's Chef Recommendations</h3>
-                    <p>Carefully curated dishes featuring the finest seasonal ingredients</p>
+                    <h3><i class="bi bi-star-fill"></i> Featured Products</h3>
+                    <p>Our best-selling Bhakarwadi varieties loved by our customers.</p>
                 </div>
 
                 <div class="row g-4">
                     <div class="col-lg-6">
                         <div class="recommendation-card">
                             <div class="recommendation-image">
-                                <img src="assets/img/restaurant/main-9.webp" alt="Chef Recommendation"
+                                <img src="{{ asset('assets/img/Products/bhakharwadi.jpg') }}" alt="Spicy Bhakarwadi"
                                     class="img-fluid">
                                 <div class="chef-badge">
                                     <i class="bi bi-award"></i>
-                                    <span>Chef's Pick</span>
+                                    <span>Best Seller</span>
                                 </div>
                             </div>
                             <div class="recommendation-content">
                                 <div class="recommendation-header">
-                                    <h4>Pan-Seared Duck Breast</h4>
-                                    <div class="recommendation-price">$34.50</div>
+                                    <h4>Spicy Bhakarwadi</h4>
+                                    <div class="recommendation-price">$12.00 / 250g</div>
                                 </div>
-                                <p>Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit
-                                    amet fermentum.</p>
-                                <div class="recommendation-details">
-                                    <div class="serving-info">
-                                        <i class="bi bi-clock"></i>
-                                        <span>25 min preparation</span>
-                                    </div>
-                                    <div class="dietary-info">
-                                        <span class="mini-badge gluten-free">GF</span>
-                                        <span class="mini-badge dairy-free">DF</span>
-                                    </div>
-                                </div>
+                                <p>Crispy and tangy snack loved by customers who enjoy a spicy bite.</p>
                             </div>
                         </div>
                     </div>
@@ -398,30 +292,19 @@
                     <div class="col-lg-6">
                         <div class="recommendation-card">
                             <div class="recommendation-image">
-                                <img src="assets/img/restaurant/main-8.webp" alt="Chef Recommendation"
+                                <img src="{{ asset('assets/img/Products/bhakharwadi.jpg') }}" alt="Classic Bhakarwadi"
                                     class="img-fluid">
                                 <div class="chef-badge">
                                     <i class="bi bi-award"></i>
-                                    <span>Chef's Pick</span>
+                                    <span>Top Rated</span>
                                 </div>
                             </div>
                             <div class="recommendation-content">
                                 <div class="recommendation-header">
-                                    <h4>Lobster Thermidor Risotto</h4>
-                                    <div class="recommendation-price">$39.95</div>
+                                    <h4>Classic Bhakarwadi</h4>
+                                    <div class="recommendation-price">$10.00 / 250g</div>
                                 </div>
-                                <p>Fusce dapibus tellus ac cursus commodo tortor mauris condimentum nibh ut fermentum
-                                    massa.</p>
-                                <div class="recommendation-details">
-                                    <div class="serving-info">
-                                        <i class="bi bi-clock"></i>
-                                        <span>30 min preparation</span>
-                                    </div>
-                                    <div class="dietary-info">
-                                        <span class="mini-badge seafood">SF</span>
-                                        <span class="mini-badge premium">Premium</span>
-                                    </div>
-                                </div>
+                                <p>Traditional sweet & spicy Bhakarwadi, perfect for everyday snacking.</p>
                             </div>
                         </div>
                     </div>
@@ -430,7 +313,7 @@
 
         </div>
 
-    </section><!-- /Menu Section -->
+    </section><!-- /Products Section -->
 
     <!-- Testimonials Section -->
     <section id="testimonials" class="testimonials section light-background">
@@ -631,326 +514,6 @@
 
     </section><!-- /Testimonials Section -->
 
-    <!-- Chefs Section -->
-    <section id="chefs" class="chefs section">
-
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-            <span class="description-title">Chefs</span>
-            <h2>Chefs</h2>
-            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-        </div><!-- End Section Title -->
-
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-            <div class="featured-chef row align-items-center g-4" data-aos="fade-up" data-aos-delay="150">
-                <div class="col-lg-5">
-                    <figure class="chef-photo m-0">
-                        <img src="assets/img/restaurant/chef-4.webp" alt="Executive chef portrait" class="img-fluid">
-                        <div class="badge-overlay">
-                            <span class="pill"><i class="bi bi-star-fill me-1"></i> Michelin Mention</span>
-                        </div>
-                    </figure>
-                </div>
-
-                <div class="col-lg-7">
-                    <div class="chef-content">
-                        <div class="topline d-inline-flex align-items-center mb-2">
-                            <i class="bi bi-patch-check-fill me-2"></i>
-                            <span>Featured Chef</span>
-                        </div>
-                        <h3 class="name">Avery Montrose</h3>
-                        <p class="role mb-3">Executive Chef</p>
-                        <p class="bio mb-4">Curabitur convallis lectus a sapien dictum, sed posuere urna fermentum.
-                            Maecenas sodales, neque non pretium ultrices, lacus nibh finibus mi, non vulputate arcu quam
-                            at nisl.</p>
-
-                        <ul class="awards list-unstyled d-flex flex-wrap gap-2 mb-4">
-                            <li class="award-badge"><i class="bi bi-award me-1"></i> Gourmand Trophy 2022</li>
-                            <li class="award-badge"><i class="bi bi-bookmark-star me-1"></i> Le Cordon Bleu Honors</li>
-                            <li class="award-badge"><i class="bi bi-trophy me-1"></i> City Best Tasting Menu</li>
-                        </ul>
-
-                        <div class="signature">
-                            <img src="assets/img/misc/signature-1.webp" alt="Chef signature" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row g-4 team-grid mt-2">
-
-                <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="200">
-                    <article class="chef-card h-100">
-                        <div class="image-wrapper">
-                            <img src="assets/img/restaurant/chef-1.webp" alt="Sous chef portrait" class="img-fluid"
-                                loading="lazy">
-                            <ul class="social list-unstyled m-0">
-                                <li><a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a></li>
-                                <li><a href="#" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a></li>
-                                <li><a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="content p-3">
-                            <h4 class="name mb-1">Jordan Lee</h4>
-                            <p class="role mb-2">Sous Chef</p>
-                            <p class="excerpt mb-3">Donec feugiat, arcu non pulvinar posuere, risus libero cursus nibh,
-                                sed dictum nibh arcu non augue.</p>
-                            <div class="badges d-flex flex-wrap gap-2">
-                                <span class="mini-badge"><i class="bi bi-award me-1"></i> Street Food Fest</span>
-                            </div>
-                        </div>
-                    </article>
-                </div><!-- End Chef Card -->
-
-                <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="250">
-                    <article class="chef-card h-100">
-                        <div class="image-wrapper">
-                            <img src="assets/img/restaurant/chef-6.webp" alt="Pastry chef portrait" class="img-fluid"
-                                loading="lazy">
-                            <ul class="social list-unstyled m-0">
-                                <li><a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a></li>
-                                <li><a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a></li>
-                                <li><a href="#" aria-label="Pinterest"><i class="bi bi-pinterest"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="content p-3">
-                            <h4 class="name mb-1">Mila Santos</h4>
-                            <p class="role mb-2">Pastry Chef</p>
-                            <p class="excerpt mb-3">Integer aliquet, urna et commodo gravida, libero lacus aliquam
-                                velit, vitae iaculis sem velit in purus.</p>
-                            <div class="badges d-flex flex-wrap gap-2">
-                                <span class="mini-badge"><i class="bi bi-egg-fried me-1"></i> Cocoa Summit</span>
-                            </div>
-                        </div>
-                    </article>
-                </div><!-- End Chef Card -->
-
-                <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="300">
-                    <article class="chef-card h-100">
-                        <div class="image-wrapper">
-                            <img src="assets/img/restaurant/chef-8.webp" alt="Grill chef portrait" class="img-fluid"
-                                loading="lazy">
-                            <ul class="social list-unstyled m-0">
-                                <li><a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a></li>
-                                <li><a href="#" aria-label="TikTok"><i class="bi bi-tiktok"></i></a></li>
-                                <li><a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="content p-3">
-                            <h4 class="name mb-1">Kai Thompson</h4>
-                            <p class="role mb-2">Grill Master</p>
-                            <p class="excerpt mb-3">Pellentesque dapibus, nibh id pharetra interdum, risus est vehicula
-                                lectus, non iaculis velit elit ut felis.</p>
-                            <div class="badges d-flex flex-wrap gap-2">
-                                <span class="mini-badge"><i class="bi bi-fire me-1"></i> Smoke-Off Winner</span>
-                            </div>
-                        </div>
-                    </article>
-                </div><!-- End Chef Card -->
-
-                <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="350">
-                    <article class="chef-card h-100">
-                        <div class="image-wrapper">
-                            <img src="assets/img/restaurant/chef-3.webp" alt="Line cook portrait" class="img-fluid"
-                                loading="lazy">
-                            <ul class="social list-unstyled m-0">
-                                <li><a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a></li>
-                                <li><a href="#" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a></li>
-                                <li><a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="content p-3">
-                            <h4 class="name mb-1">Renee Collins</h4>
-                            <p class="role mb-2">Line Cook</p>
-                            <p class="excerpt mb-3">Vestibulum congue, justo eget ultricies posuere, erat nunc viverra
-                                arcu, vitae cursus arcu nunc at erat.</p>
-                            <div class="badges d-flex flex-wrap gap-2">
-                                <span class="mini-badge"><i class="bi bi-emoji-smile me-1"></i> Guest Favorite</span>
-                            </div>
-                        </div>
-                    </article>
-                </div><!-- End Chef Card -->
-
-            </div>
-
-        </div>
-
-    </section><!-- /Chefs Section -->
-
-    <!-- Book A Table Section -->
-    <section id="book-a-table" class="book-a-table section light-background">
-
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-            <div class="row">
-                <div class="col-12">
-                    <div class="reservation-container">
-                        <div class="row g-0">
-
-                            <div class="col-lg-5" data-aos="fade-right" data-aos-delay="200">
-                                <div class="reservation-form-section">
-                                    <div class="form-header text-center">
-                                        <h3>Make a Reservation</h3>
-                                        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                            minim veniam quis nostrud exercitation.</p>
-                                    </div>
-
-                                    <form action="forms/book-a-table.php" method="post" role="form"
-                                        class="php-email-form">
-                                        <div class="row gy-3">
-                                            <div class="col-12">
-                                                <input type="text" name="name" class="form-control"
-                                                    placeholder="Full Name" required="">
-                                            </div>
-                                            <div class="col-12">
-                                                <input type="email" class="form-control" name="email"
-                                                    placeholder="Email Address" required="">
-                                            </div>
-                                            <div class="col-12">
-                                                <input type="tel" class="form-control" name="phone"
-                                                    placeholder="Phone Number" required="">
-                                            </div>
-                                            <div class="col-6">
-                                                <input type="date" name="date" class="form-control" required="">
-                                            </div>
-                                            <div class="col-6">
-                                                <input type="time" class="form-control" name="time" required="">
-                                            </div>
-                                            <div class="col-6">
-                                                <select name="people" class="form-select" required="">
-                                                    <option value="">Guests</option>
-                                                    <option value="1">1 Guest</option>
-                                                    <option value="2">2 Guests</option>
-                                                    <option value="3">3 Guests</option>
-                                                    <option value="4">4 Guests</option>
-                                                    <option value="5">5 Guests</option>
-                                                    <option value="6">6+ Guests</option>
-                                                </select>
-                                            </div>
-                                            <div class="col-6">
-                                                <select name="occasion" class="form-select">
-                                                    <option value="">Occasion</option>
-                                                    <option value="birthday">Birthday</option>
-                                                    <option value="anniversary">Anniversary</option>
-                                                    <option value="business">Business Dinner</option>
-                                                    <option value="date">Date Night</option>
-                                                    <option value="celebration">Celebration</option>
-                                                    <option value="other">Other</option>
-                                                </select>
-                                            </div>
-                                            <div class="col-12">
-                                                <textarea class="form-control" name="message" rows="3"
-                                                    placeholder="Special requests or dietary requirements"></textarea>
-                                            </div>
-                                        </div>
-
-                                        <div class="my-3">
-                                            <div class="loading">Loading</div>
-                                            <div class="error-message"></div>
-                                            <div class="sent-message">Your reservation request has been submitted
-                                                successfully. We'll contact you shortly to confirm.</div>
-                                        </div>
-
-                                        <button type="submit" class="btn-reserve w-100">
-                                            <i class="bi bi-calendar-check me-2"></i>
-                                            Reserve Table
-                                        </button>
-                                    </form>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-7" data-aos="fade-left" data-aos-delay="300">
-                                <div class="reservation-info-section">
-                                    <div class="hero-image">
-                                        <img src="assets/img/restaurant/showcase-2.webp" alt="Restaurant dining area"
-                                            class="img-fluid">
-                                        <div class="overlay-content">
-                                            <h4>Experience Fine Dining</h4>
-                                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                                                dolore eu fugiat nulla pariatur.</p>
-                                        </div>
-                                    </div>
-
-                                    <div class="info-cards">
-                                        <div class="row g-3">
-                                            <div class="col-md-6" data-aos="zoom-in" data-aos-delay="400">
-                                                <div class="info-card">
-                                                    <div class="card-icon">
-                                                        <i class="bi bi-clock"></i>
-                                                    </div>
-                                                    <div class="card-content">
-                                                        <h5>Business Hours</h5>
-                                                        <p>Tuesday - Thursday: 5:00 PM - 10:00 PM<br>
-                                                            Friday - Saturday: 5:00 PM - 11:00 PM<br>
-                                                            Sunday: 4:00 PM - 9:00 PM<br>
-                                                            <em>Closed Mondays</em>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-md-6" data-aos="zoom-in" data-aos-delay="450">
-                                                <div class="info-card">
-                                                    <div class="card-icon">
-                                                        <i class="bi bi-geo-alt-fill"></i>
-                                                    </div>
-                                                    <div class="card-content">
-                                                        <h5>Find Us</h5>
-                                                        <p>4567 Elm Avenue, Floor 2<br>
-                                                            Chicago, IL 60614</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-md-6" data-aos="zoom-in" data-aos-delay="500">
-                                                <div class="info-card">
-                                                    <div class="card-icon">
-                                                        <i class="bi bi-telephone-fill"></i>
-                                                    </div>
-                                                    <div class="card-content">
-                                                        <h5>Reservations</h5>
-                                                        <p>+1 (312) 555-9876<br>
-                                                            <small>Available daily 2:00 PM - 9:00 PM</small>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-md-6" data-aos="zoom-in" data-aos-delay="550">
-                                                <div class="info-card">
-                                                    <div class="card-icon">
-                                                        <i class="bi bi-envelope-fill"></i>
-                                                    </div>
-                                                    <div class="card-content">
-                                                        <h5>Email Us</h5>
-                                                        <p>reservations@example.com<br>
-                                                            <small>Response within 24 hours</small>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="additional-info" data-aos="fade-up" data-aos-delay="600">
-                                        <div class="info-highlight">
-                                            <i class="bi bi-star-fill"></i>
-                                            <span>Recommended to book 2-3 days in advance for weekend dining</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-    </section><!-- /Book A Table Section -->
-
     <!-- Location Section -->
     <section id="location" class="location section">
 
@@ -960,9 +523,11 @@
                 <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
                     <div class="map-container">
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.684949335945!2d-73.98658242357565!3d40.75853057126168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQ1JzMwLjciTiA3M8KwNTknMDcuNyJX!5e0!3m2!1sen!2sus!4v1654321234567!5m2!1sen!2sus"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3804.0000000000005!2d77.7570000000000!3d20.9330000000000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd7cdaf0d0c4adf%3A0x0!2sKhandelwal%20Nagar%2C%20Forest%20Colony%2C%20Akoli%20Road%2C%20Amravati!5e0!3m2!1sen!2sin!4v1695830000000!5m2!1sen!2sin"
                             width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+
                     </div>
                 </div>
 
@@ -979,45 +544,24 @@
                             </div>
                             <div class="info-content">
                                 <h3>Our Location</h3>
-                                <p>123 Culinary Avenue, Manhattan, NY 10001</p>
+                                <p>Plot No. 41B, Forest Colony, Khandelwal Nagar, Akoli Road, Amravati, Maharashtra -444607</p>
                             </div>
                         </div>
 
-                        <div class="info-card" data-aos="fade-up" data-aos-delay="400">
-                            <div class="info-icon">
-                                <i class="bi bi-telephone"></i>
-                            </div>
-                            <div class="info-content">
-                                <h3>Reservations</h3>
-                                <p>+1 (212) 555-7890</p>
-                                <p class="small-text">We recommend making reservations at least 48 hours in advance</p>
-                            </div>
-                        </div>
+
 
                         <div class="info-card" data-aos="fade-up" data-aos-delay="500">
                             <div class="info-icon">
                                 <i class="bi bi-clock"></i>
                             </div>
                             <div class="info-content">
-                                <h3>Hours</h3>
-                                <div class="hours-grid">
-                                    <div class="day">Monday - Thursday</div>
-                                    <div class="time">11:00 AM - 10:00 PM</div>
-
-                                    <div class="day">Friday - Saturday</div>
-                                    <div class="time">11:00 AM - 11:30 PM</div>
-
-                                    <div class="day">Sunday</div>
-                                    <div class="time">10:00 AM - 9:00 PM</div>
-
-                                    <div class="day">Brunch Hours</div>
-                                    <div class="time">Sat &amp; Sun, 10:00 AM - 2:00 PM</div>
-                                </div>
+                                <h3>Business Hours</h3>
+                                <p>Mon - Sat: 9:00 AM - 8:00 PM<br>Sunday: Closed</p>
                             </div>
+
                         </div>
 
                         <div class="cta-wrapper" data-aos="fade-up" data-aos-delay="600">
-                            <a href="#" class="btn-book">Make a Reservation</a>
                             <a href="#" class="btn-contact">Contact Us</a>
                         </div>
                     </div>
@@ -1241,153 +785,82 @@
 
     </section><!-- /Events Section -->
 
-    <!-- Gallery Section -->
-    <section id="gallery" class="gallery section">
+  <!-- Gallery Section -->
+<section id="gallery" class="gallery section">
 
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-            <span class="description-title">Gallery</span>
-            <h2>Gallery</h2>
-            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-        </div><!-- End Section Title -->
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+        <span class="description-title">Gallery</span>
+        <h2>Our Products</h2>
+        <p>Delicious treats crafted with love and tradition.</p>
+    </div><!-- End Section Title -->
 
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-            <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-                <ul class="restaurant-gallery-filters isotope-filters mb-4 justify-content-center d-flex gap-2"
-                    data-aos="fade-up" data-aos-delay="100">
-                    <li data-filter="*" class="filter-active">All</li>
-                    <li data-filter=".filter-food">Food</li>
-                    <li data-filter=".filter-drinks">Drinks</li>
-                    <li data-filter=".filter-interior">Interior</li>
-                    <li data-filter=".filter-staff">Staff</li>
-                </ul>
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+            <ul class="restaurant-gallery-filters isotope-filters mb-4 justify-content-center d-flex gap-2"
+                data-aos="fade-up" data-aos-delay="100">
+                <li data-filter="*" class="filter-active">All</li>
+                <li data-filter=".filter-bhakarwadi">Bhakarwadi</li>
+                <li data-filter=".filter-choco">Choco Lava Cake</li>
+                <li data-filter=".filter-brownie">Brownie</li>
+            </ul>
 
-                <div class="row g-3 isotope-container" data-aos="fade-up" data-aos-delay="200">
-                    <div class="col-lg-4 col-md-6 isotope-item filter-food">
-                        <figure class="gallery-card">
-                            <a href="assets/img/restaurant/main-3.webp" class="glightbox"
-                                data-gallery="restaurant-gallery">
-                                <img src="assets/img/restaurant/main-3.webp" alt="Grilled Salmon"
-                                    class="img-fluid rounded" loading="lazy">
-                            </a>
-                            <figcaption class="caption">
-                                <span class="caption-title">Grilled Salmon</span>
-                                <span>Fresh salmon with lemon butter sauce.</span>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <div class="col-lg-4 col-md-6 isotope-item filter-interior">
-                        <figure class="gallery-card">
-                            <a href="assets/img/restaurant/showcase-2.webp" class="glightbox"
-                                data-gallery="restaurant-gallery">
-                                <img src="assets/img/restaurant/showcase-2.webp" alt="Dining Hall"
-                                    class="img-fluid rounded" loading="lazy">
-                            </a>
-                            <figcaption class="caption">
-                                <span class="caption-title">Dining Hall</span>
-                                <span>Spacious, warm and welcoming ambiance.</span>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <div class="col-lg-4 col-md-6 isotope-item filter-staff">
-                        <figure class="gallery-card">
-                            <a href="assets/img/restaurant/chef-5.webp" class="glightbox"
-                                data-gallery="restaurant-gallery">
-                                <img src="assets/img/restaurant/chef-5.webp" alt="Chef Maria" class="img-fluid rounded"
-                                    loading="lazy">
-                            </a>
-                            <figcaption class="caption">
-                                <span class="caption-title">Chef Maria</span>
-                                <span>Our creative chef behind every dish.</span>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <div class="col-lg-4 col-md-6 isotope-item filter-drinks">
-                        <figure class="gallery-card">
-                            <a href="assets/img/restaurant/drink-2.webp" class="glightbox"
-                                data-gallery="restaurant-gallery">
-                                <img src="assets/img/restaurant/drink-2.webp" alt="Signature Mocktail"
-                                    class="img-fluid rounded" loading="lazy">
-                            </a>
-                            <figcaption class="caption">
-                                <span class="caption-title">Signature Mocktail</span>
-                                <span>Vibrant blend of fresh citrus and herbs.</span>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <div class="col-lg-4 col-md-6 isotope-item filter-food">
-                        <figure class="gallery-card">
-                            <a href="assets/img/restaurant/dessert-4.webp" class="glightbox"
-                                data-gallery="restaurant-gallery">
-                                <img src="assets/img/restaurant/dessert-4.webp" alt="Raspberry Tart"
-                                    class="img-fluid rounded" loading="lazy">
-                            </a>
-                            <figcaption class="caption">
-                                <span class="caption-title">Raspberry Tart</span>
-                                <span>Sweet pastry filled with creamy vanilla custard.</span>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <div class="col-lg-4 col-md-6 isotope-item filter-interior">
-                        <figure class="gallery-card">
-                            <a href="assets/img/restaurant/showcase-5.webp" class="glightbox"
-                                data-gallery="restaurant-gallery">
-                                <img src="assets/img/restaurant/showcase-5.webp" alt="Bar Area"
-                                    class="img-fluid rounded" loading="lazy">
-                            </a>
-                            <figcaption class="caption">
-                                <span class="caption-title">Bar Area</span>
-                                <span>Cozy spot for cocktails and good conversation.</span>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <div class="col-lg-4 col-md-6 isotope-item filter-staff">
-                        <figure class="gallery-card">
-                            <a href="assets/img/restaurant/chef-2.webp" class="glightbox"
-                                data-gallery="restaurant-gallery">
-                                <img src="assets/img/restaurant/chef-2.webp" alt="Sous Chef Daniel"
-                                    class="img-fluid rounded" loading="lazy">
-                            </a>
-                            <figcaption class="caption">
-                                <span class="caption-title">Sous Chef Daniel</span>
-                                <span>Expert in modern fusion cuisine.</span>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <div class="col-lg-4 col-md-6 isotope-item filter-drinks">
-                        <figure class="gallery-card">
-                            <a href="assets/img/restaurant/drink-8.webp" class="glightbox"
-                                data-gallery="restaurant-gallery">
-                                <img src="assets/img/restaurant/drink-8.webp" alt="Classic Espresso"
-                                    class="img-fluid rounded" loading="lazy">
-                            </a>
-                            <figcaption class="caption">
-                                <span class="caption-title">Classic Espresso</span>
-                                <span>Rich and aromatic, served to perfection.</span>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <div class="col-lg-4 col-md-6 isotope-item filter-food">
-                        <figure class="gallery-card">
-                            <a href="assets/img/restaurant/main-7.webp" class="glightbox"
-                                data-gallery="restaurant-gallery">
-                                <img src="assets/img/restaurant/main-7.webp" alt="Beef Fillet" class="img-fluid rounded"
-                                    loading="lazy">
-                            </a>
-                            <figcaption class="caption">
-                                <span class="caption-title">Beef Fillet</span>
-                                <span>Tender beef with herb roasted vegetables.</span>
-                            </figcaption>
-                        </figure>
-                    </div>
-                </div><!-- End Gallery Items Container -->
+            <div class="row g-3 isotope-container" data-aos="fade-up" data-aos-delay="200">
+                
+                <!-- Bhakarwadi -->
+                <div class="col-lg-4 col-md-6 isotope-item filter-bhakarwadi">
+                    <figure class="gallery-card">
+                        <a href="assets/img/Products/bhakharwadi.jpg" class="glightbox"
+                            data-gallery="product-gallery">
+                            <img src="{{ asset('assets/img/Products/bhakharwadi.jpg') }}" alt="Bhakarwadi"
+                                class="img-fluid rounded" loading="lazy">
+                        </a>
+                        <figcaption class="caption">
+                            <span class="caption-title">Bhakarwadi</span>
+                            <span>Crispy, spicy, and authentic Maharashtrian delight.</span>
+                        </figcaption>
+                    </figure>
+                </div>
 
-            </div>
+                <!-- Choco Lava Cake -->
+                <div class="col-lg-4 col-md-6 isotope-item filter-choco">
+                    <figure class="gallery-card">
+                        <a href="assets/img/Products/chocolava-cake.jpg" class="glightbox"
+                            data-gallery="product-gallery">
+                            <img src="{{ asset('assets/img/Products/chocolava-cake.jpg') }}" alt="Choco Lava Cake"
+                                class="img-fluid rounded" loading="lazy">
+                        </a>
+                        <figcaption class="caption">
+                            <span class="caption-title">Choco Lava Cake</span>
+                            <span>Rich chocolate cake with a gooey molten center.</span>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <!-- Brownie -->
+                <div class="col-lg-4 col-md-6 isotope-item filter-brownie">
+                    <figure class="gallery-card">
+                        <a href="assets/img/Products/brownie.jpg" class="glightbox"
+                            data-gallery="product-gallery">
+                            <img src="{{ asset('assets/img/Products/brownie.jpg') }}" alt="Brownie"
+                                class="img-fluid rounded" loading="lazy">
+                        </a>
+                        <figcaption class="caption">
+                            <span class="caption-title">Brownie</span>
+                            <span>Fudgy, soft and full of chocolatey goodness.</span>
+                        </figcaption>
+                    </figure>
+                </div>
+
+            </div><!-- End Gallery Items Container -->
 
         </div>
 
-    </section><!-- /Gallery Section -->
+    </div>
+
+</section><!-- /Gallery Section -->
+
 
     <!-- Contact Section -->
     <section id="contact" class="contact section light-background">
@@ -1410,7 +883,7 @@
                         </div>
                         <div class="info-content">
                             <h4>Our Address</h4>
-                            <p>1842 Maple Avenue, Portland, Oregon 97204</p>
+                            <p>Plot No. 41B, Forest Colony, Khandelwal Nagar, Akoli Road, Amravati, Maharashtra -444607</p>
                         </div>
                     </div>
                 </div>
@@ -1418,12 +891,11 @@
                 <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
                     <div class="contact-info-box">
                         <div class="icon-box">
-                            <i class="bi bi-envelope"></i>
+                            <i class="bi bi-telephone"></i>
                         </div>
                         <div class="info-content">
-                            <h4>Email Address</h4>
-                            <p>info@example.com</p>
-                            <p>contact@example.com</p>
+                            <h4>Phone Number</h4>
+                            <p>+91 78210 95547</p>
                         </div>
                     </div>
                 </div>
@@ -1435,8 +907,8 @@
                         </div>
                         <div class="info-content">
                             <h4>Hours of Operation</h4>
-                            <p>Sunday-Fri: 9 AM - 6 PM</p>
-                            <p>Saturday: 9 AM - 4 PM</p>
+                            <p>Mon - Sat: 9:00 AM - 8:00 PM</p>
+                            <p>Sunday: Closed</p>
                         </div>
                     </div>
                 </div>
@@ -1447,7 +919,7 @@
         <!-- Google Maps (Full Width) -->
         <div class="map-section" data-aos="fade-up" data-aos-delay="200">
             <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3804.0000000000005!2d77.7570000000000!3d20.9330000000000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd7cdaf0d0c4adf%3A0x0!2sKhandelwal%20Nagar%2C%20Forest%20Colony%2C%20Akoli%20Road%2C%20Amravati!5e0!3m2!1sen!2sin!4v1695830000000!5m2!1sen!2sin"
                 width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
